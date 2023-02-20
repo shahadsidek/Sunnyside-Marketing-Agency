@@ -1,3 +1,5 @@
+@import "compass/css3";
+
 /*this code helped to make all sub div within the main div*/
 * {
     box-sizing: border-box;
@@ -61,7 +63,41 @@
     padding-top: 6%;
 }
 
-/* ------- THE SERVICE GRID ----------*/
+
+/*
+------------------------------------
+BOUNCING ARROW
+------------------------------------
+ */
+
+.arrow {
+    white-space: nowrap;
+    color: #a5a2a2;
+    position: fixed;
+    right: 0;
+    bottom: 60px;
+    left: 0;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    transform: translateY(0);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 750ms ease-in-out;
+    -ms-transition: all 750ms ease-in-out;
+    -o-transition: all 750ms ease-in-out;
+    transition: all 750ms ease-in-out;
+}
+
+.lift {
+    transform: translateY(19px);
+}
+
+
+/*
+------------------------------------
+SERVICE GRID
+------------------------------------
+ */
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -126,9 +162,12 @@ TESTIMONIAL SECTION
 }
 
 
-.testimonial-item-7, .testimonial-item-8, .testimonial-item-9{
+.testimonial-item-7,
+.testimonial-item-8,
+.testimonial-item-9 {
     padding-bottom: 2em;
 }
+
 .testimonial-item-1 {
     grid-area: testimonial-item-1;
 }
@@ -187,6 +226,8 @@ TESTIMONIAL SECTION
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
+
+
 
 /*
 ------------------------------------
