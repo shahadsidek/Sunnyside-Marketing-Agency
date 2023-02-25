@@ -43,7 +43,7 @@
 
 
 .logo {
-    background-image: url(./images/logo/logo.svg);
+    background-image: url("../images/logo/logo.svg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -52,7 +52,7 @@
 
 .header-image {
     /* border: 5px solid rgb(0, 255, 4); */
-    background-image: url('./images/desktop/image-header.jpg');
+    background-image: url('../images/desktop/image-header.jpg');
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -132,14 +132,14 @@ SERVICE GRID
 }
 
 .item-5 {
-    background-image: url("./images/desktop/image-graphic-design.jpg");
+    background-image: url("../images/desktop/image-graphic-design.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .item-6 {
-    background-image: url("./images/desktop/image-photography.jpg");
+    background-image: url("../images/desktop/image-photography.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -280,7 +280,7 @@ PROJECTS SECTION
 
 .company-logo {
     margin-top: 1em;
-    background-image: url("./images/logo/logo.svg");
+    background-image: url("../images/logo/logo.svg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
